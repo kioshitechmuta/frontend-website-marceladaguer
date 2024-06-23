@@ -1,0 +1,276 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+/*
+PALETA DE CORES
+#1A1F4A
+#FF7069
+#7F6FA3
+#2BB0BF
+#B4E5F2
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #FF7069;
+}
+
+/*      SEÇÃO COM O DIV DA PRIMEIRA PARTE DO SITE       */
+#divmsginicial {
+    padding: 10px;
+    margin: 0 auto;
+    width: 92vw;
+    height: 70vh;
+    max-width: 600px;
+    max-height: 850px;
+    min-height: 600px;
+    background: linear-gradient(to bottom, var(--main-color), #fff);
+    border-radius: 3dvh;
+}
+
+#divtextomsginicial {
+    height: 60%;
+}
+
+#divtextomsginicial > h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-family: "Kalam", cursive;
+    color: #fff;
+    font-size: 4dvh;
+}
+
+#divimgmarcelainicial {
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+#imgfotomarcela {
+    width: 70%;
+    border-radius: 50%;
+    border: 2px solid #f1f1f1;
+}
+
+/*      SEÇÃO COM O DIV DA PRIMEIRA PARTE DO SITE (TELAS GRANDES)       */
+@media screen and (min-width: 768px) {
+    #divmsginicial {
+        display: flex;
+        width: 92vw;
+        height: 30vh;
+        max-width: 1000px;
+        max-height: 500px;
+        background: linear-gradient(to right, var(--main-color), #fff);
+        border-radius: 3dvh;
+    }
+
+    #divtextomsginicial {
+        width: 70%;
+        height: 100%;
+    }
+    
+    #divtextomsginicial > h1 {
+        padding-top: 10px;
+        width: 100%;
+        height: 100%;
+        font-family: "Kalam", cursive;
+        font-size: 3.5dvh;
+        text-align: center;
+        align-content: center;
+        color: #fff;
+    }
+
+    #divimgmarcelainicial {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center
+    }
+
+    #imgfotomarcela {
+        width: 75%;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        border: 2px solid #f1f1f1;
+    }
+}
+/*      SEÇÃO COM O DIV DA PRIMEIRA PARTE DO SITE       */
+
+
+
+
+/*      SEÇÃO COM O DIV DA SEGUNDA (TEXTO COM DESPERTAR SEM FUNDO) PARTE DO SITE       */
+#divtextomsgdespertar {
+    padding: 20px;
+    margin: 0 auto;
+    width: 95vw;
+    height: auto;
+    max-width: 850px;
+}
+
+#divtextomsgdespertar > article {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: justify;
+    text-indent: 2em;
+    color: rgb(56, 56, 56);
+    line-height: 1.5em;
+}
+
+#divtextomsgdespertar > article > p {
+    margin-bottom: 15px;
+}
+
+/* Remover a margem inferior do último parágrafo do artigo */
+#divtextomsgdespertar > article > p:last-child {
+    margin-bottom: 0;
+}
+
+/*      SEÇÃO COM O DIV DA SEGUNDA (TEXTO COM DESPERTAR SEM FUNDO) PARTE DO SITE       */
+@media screen and (min-width: 768px) {
+
+    #divtextomsgdespertar > article {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-size: 20px;
+        font-style: normal;
+        text-align: justify;
+        color: #000;
+        line-height: 1.5em;
+    }
+}
+/*      SEÇÃO COM O DIV DA SEGUNDA (TEXTO COM DESPERTAR SEM FUNDO) PARTE DO SITE       */
+
+
+
+
+/*          SEÇÃO COM O DIV QUE CONTÉM OS FRAMES PARA AS TERAPIAS           */
+#divterapiastexto {
+    padding: 20px;
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 850px;
+}
+
+#divatendimento {
+    padding: 20px;
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 850px;
+}
+
+.titulotexto {
+    font-family: "Kalam", cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #000;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(var(--main-color), #fff) 30;
+}
+
+.textopadrao {
+    font-family: "Nunito Sans", sans-serif;
+    color: #000;
+    font-size: 1rem;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Remover a margem inferior do último parágrafo do artigo */
+#divterapiastexto > p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .titulotexto {
+        font-size: 40px;
+        font-weight: medium;
+    }
+
+    .textopadrao {
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #000;
+    }
+}
+/*          SEÇÃO COM O DIV QUE CONTÉM OS FRAMES PARA AS TERAPIAS           */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      SEÇÃO COM O DIV QUE CONTÉM O LINK PARA O VÍDEO DO YOUTUBE       */
+#divyoutube {
+    margin: 0 auto;
+    width: 70vw;
+    height: 300px;
+    min-width: 355px;
+    min-height: 300px;
+    max-width: 750px;
+    max-height: 500px;
+    text-align: center;
+}
+
+#divtextoyoutube {
+    margin: 0 auto;
+}
+
+#divtextoyoutube > H3 {
+    font-family: "Kalam", cursive;
+    color: #000;
+    font-size: 3dvh;
+    text-align: center;
+}
+
+iframe[src*="youtube"] {
+    width:99%;
+    height:100%;
+}
+/*      SEÇÃO COM O DIV QUE CONTÉM O LINK PARA O VÍDEO DO YOUTUBE       */

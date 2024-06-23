@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"');
+
+:root {
+    --main-color-header: #7F6FA3;
+}
+
+/*
+    header.css para as configurações que se aplicam para todas as condições e telas pequenas
+*/
+header {
+    background: #fff;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(var(--main-color-header), #fff) 30;
+}
+
+#divheadermobile {
+    margin: 0 auto;
+    position: relative;
+    width: 92vw;
+}
+
+#divheader {
+    display: none;
+}
+
+#divimagesheader {
+    display: flex;
+    align-items: center;
+}
+
+#divimageburguer {
+    padding: 3px;
+    width: 50%;
+    display: flex;
+}
+
+#divimagemlogoazul {
+    width: 50%;
+    min-height: 65px;
+    text-align: right;
+}
+
+#divimagemlogoazulaux {
+    display: inline-block;
+    width: 150px;
+    height: 65px;
+    background-image: url("../img/mobile/logo-azul.webp");
+    background-size: cover;
+}
+
+span#menuburguer {
+    color: var(--main-color-header);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+span#menuburguer:hover {
+    background-color: var(--main-color-header);
+    border-radius: 50%;
+    color: white;
+}
+
+#navmenuitens {
+    padding-top: 10px;
+    position: absolute;
+    height: 90vh;
+    width: 0vw;
+    max-width: 300px;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 2dvh;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#navmenuitens > ul {
+    list-style-type: none;
+}
+
+#navmenuitens ul > li > a {
+    padding: 5px 5px 20px 5px;
+    text-decoration: none;
+    color: var(--main-color-header);
+    display: flex;
+    align-items: center;
+}
+
+#navmenuitens ul > li > a > span {
+    padding: 0px 20px 0px 0px;
+}
+
+
+/*
+    header.css media query para telas grandes
+*/
+@media screen and (min-width: 768px) {
+
+    #divheadermobile {
+        display: none;
+    }
+
+    #divheader {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 92vw;
+        max-width: 1000px;
+    }
+
+    #divmenu {
+        padding: 3px;
+        width: 80%;
+        display: flex;
+    }
+
+    #divimagemlogoazul2 {
+        width: 20%;
+        min-height: 65px;
+        text-align: right;
+    }
+    
+    #divimagemlogoazulaux2 {
+        display: inline-block;
+        width: 150px;
+        height: 65px;
+        background-image: url("../img/mobile/logo-azul.webp");
+        background-size: cover;
+    }
+
+    #navmenuitens2 {
+        padding-top: 10px;
+        width: 100%;
+        background-color: white;
+        font-family: Helvetica, sans-serif;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    #navmenuitens2 ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    #navmenuitens2 ul > li {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    #navmenuitens2 ul > li > a {
+        text-decoration: none;
+        color: var(--main-color-header);
+        align-items: center;
+    }
+}

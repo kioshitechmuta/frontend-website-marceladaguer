@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#divimagemdespertarespiritual {
+    margin: 0 auto;
+    width: 92vw;
+    height: 25vh;
+    max-width: 1000px;
+    background-image: url("../img/mobile/despertar-esperitual.webp");
+    background-size: cover;
+    border-radius: 3dvh;
+}
+
+#divtextodespertarespiritual {
+    padding: 25px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 850px;
+}
+
+#divimagemreprogramacaomental {
+    margin: 0 auto;
+    width: 92vw;
+    height: 25vh;
+    max-width: 1000px;
+    background-image: url("../img/mobile/reprogramacao-mental.webp");
+    background-size: cover;
+    border-radius: 3dvh;
+}
+
+#divtextoreprogramacaomental {
+    padding: 25px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 850px;
+}
+
+#divimagemtratamentoquantico {
+    margin: 0 auto;
+    width: 92vw;
+    height: 25vh;
+    max-width: 1000px;
+    background-image: url("../img/mobile/tratamento-quantico.webp");
+    background-size: cover;
+    border-radius: 3dvh;
+}
+
+#divtextotratamentoquantico {
+    padding: 25px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 850px;
+}
+
+.titulo {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #FF7069;
+}
+
+.titulotexto {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: rgb(56, 56, 56);
+}
+
+.textopadrao {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: justify;
+    text-indent: 2em;
+    color: rgb(56, 56, 56);
+    line-height: 1.5em;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    #divtextoterapias > p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .titulotexto {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .textopadrao {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
