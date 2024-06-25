@@ -6,8 +6,8 @@
 Este repositório contém o código fonte do site estático do domínio marceladaguer.com.
 
 ### Índice
-- <a href="#visaogeral">Visão Geral</a>
-- <a href="#tecnologias">Tecnologias Utilizadas</a>
+- <a href="#visão-geral">Visão Geral</a>
+- <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
 - <a href="#arquitetura">Arquitetura</a>
 <br><br><br>
 
