@@ -84,12 +84,17 @@ span#menuburguer:hover {
     list-style-type: none;
 }
 
+.itensmenu {
+    text-align: center;
+}
+
 #navmenuitens ul > li > a {
     padding: 5px 5px 20px 5px;
     text-decoration: none;
     color: var(--main-color-header);
-    display: flex;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
 }
 
 #navmenuitens ul > li > a > span {
@@ -126,6 +131,13 @@ span#menuburguer:hover {
         text-align: right;
     }
     
+    .logo {
+        color: #7F6FA3;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #divimagemlogoazulaux2 {
         display: inline-block;
         width: 150px;

@@ -61,6 +61,26 @@
     max-width: 850px;
 }
 
+.material-symbols-outlined {
+    font-size: 36px;
+    font-weight: bold;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.voltar {
+    padding: 25px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 850px;
+    text-align: end;
+}
+
+.voltar > a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+
 .titulo {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 600;

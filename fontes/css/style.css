@@ -155,6 +155,25 @@ PALETA DE CORES
 
 
 
+/*          SEÇÃO COM O DIV QUE CONTÉM O VÍDEO DE APRESENTAÇÃO DA MARCELA       */
+#divvideoapresentacao {
+    padding: 50px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 850px;
+}
+
+#videoapresentacao {
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 700px;
+}
+/*          SEÇÃO COM O DIV QUE CONTÉM O VÍDEO DE APRESENTAÇÃO DA MARCELA       */
+
+
 
 /*          SEÇÃO COM O DIV QUE CONTÉM OS FRAMES PARA AS TERAPIAS           */
 #divterapiastexto {
