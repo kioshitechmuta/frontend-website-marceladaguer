@@ -15,9 +15,9 @@ class customHeader extends HTMLElement {
           </div>
           <nav id="navmenuitens">
             <ul class="headerUL">
-                <li><a href="../html/main.html"><span id="itemmenuhome" class="material-symbols-outlined">home</span>Início</a></li>
-                <li><a href="../html/quemsou.html"><span id="itemmenuhealthy" class="material-symbols-outlined">self_improvement</span>Marcela Daguer</a></li>
-                <li><a href="../html/terapias.html"><span id="itemmenuhealthy" class="material-symbols-outlined">digital_wellbeing</span>Terapias</a></li>
+                <li><a href="../index.html"><span id="itemmenuhome" class="material-symbols-outlined">home</span>Início</a></li>
+                <li><a href="../quemsou.html"><span id="itemmenuhealthy" class="material-symbols-outlined">self_improvement</span>Marcela Daguer</a></li>
+                <li><a href="../terapias.html"><span id="itemmenuhealthy" class="material-symbols-outlined">digital_wellbeing</span>Terapias</a></li>
                 <li><a href="https://marceladaguer.wordpress.com/" target="_blank"><span id="itemmenuarticle" class="material-symbols-outlined">article</span>Blog</a></li>
                 <li class="itensmenu">
                     <a href="https://www.instagram.com/marceladaguer?igsh=MWh6YWQyNzc0eGNqZw==" target="_blank"><i class="fa-brands fa-instagram logo"></i></a>&nbsp;&nbsp;&nbsp;
@@ -31,9 +31,9 @@ class customHeader extends HTMLElement {
         <div id="divmenu">
             <nav id="navmenuitens2">
                 <ul>
-                    <li><a href="../html/main.html">Início</a></li>
-                    <li><a href="../html/quemsou.html">Marcela Daguer</a></li>
-                    <li><a href="../html/terapias.html">Terapias</a></li>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="../quemsou.html">Marcela Daguer</a></li>
+                    <li><a href="../terapias.html">Terapias</a></li>
                     <li><a href="https://marceladaguer.wordpress.com/" target="_blank">Blog</a></li>
                     <li>
                         <a href="https://www.instagram.com/marceladaguer?igsh=MWh6YWQyNzc0eGNqZw==" target="_blank"><i class="fa-brands fa-instagram logo"></i></a>&nbsp;&nbsp;&nbsp;
